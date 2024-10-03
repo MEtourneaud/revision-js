@@ -30,4 +30,19 @@ let nom = "Mathieu"
 
 let texteAffichage =
   "Bonjour " + nom + ", votre film " + ticket.nomFilm + " est en salle " + ticket.numeroSalle + "."
-console.log(texteAffichage)
+// console.log(texteAffichage)
+
+//==>Tableaux d'objets
+
+//Déclarez un tableau playlist qui contiendra trois de vos morceaux préférés.
+let playlist = ["Phantom Liberty", "Riders on the Storm", "Radioactive"]
+
+//Stockez le nombre de morceaux disponibles dans une variable totalMorceaux.
+let totalMorceaux = playlist.length
+
+//Ajoutez deux morceaux au tableau playlist.
+playlist.push("Wild Thing", "Stairway to Heaven")
+
+//Supprimez le dernier morceau ajouté à votre collection.
+playlist.pop()
+console.log(playlist)
